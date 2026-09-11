@@ -54,6 +54,7 @@ class dashboardController extends Controller
         $data['event'] = Event::where('is_delete','0')->latest()->take(2)->get();
         $data['blog'] = DB::table('blog')
             ->where('is_delete', '0')
+            ->where('status', 'Active')
             ->select('id', 'title', 'image','banner_image', 'short_description', 'publish_date', 'url','alt','alt_banner')
             ->orderBy('id', 'desc')
             ->take(3)
@@ -264,7 +265,7 @@ class dashboardController extends Controller
        public function blog(){
         $title="Latest Blog on Water & Air Filter Cartridges";
         $description="Read our latest blog to discover everything you need to know about water and air filter cartridges, their types, uses, and benefits for various applications."; 
-        $blog = DB::table('blog')->where('is_delete', '0')->select('id', 'title', 'image','banner_image', 'short_description', 'publish_date', 'url','alt')->orderBy('id', 'desc')->get();
+        $blog = DB::table('blog')->where('is_delete', '0')->where('status', 'Active')->select('id', 'title', 'image','banner_image', 'short_description', 'publish_date', 'url','alt')->orderBy('id', 'desc')->get();
         $ogimage = asset('public/front/images/Blog.jpg');
         //dd($blog);
         return view('front.blog', compact('blog', 'title', 'description', 'ogimage'));
