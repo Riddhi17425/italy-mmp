@@ -1,0 +1,4 @@
+[21-Apr-2026 16:08:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/hgbwk9a94wuf/public_html/italy.mmpfilter.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/hgbwk9a94wuf/public_html/italy.mmpfilter.com/bootstrap/app.php on line 14
