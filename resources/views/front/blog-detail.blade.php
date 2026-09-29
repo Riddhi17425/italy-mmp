@@ -67,8 +67,26 @@ line-height: 28px !important;
            <img src="{{ asset('public/blog/FILATO-22-SPECIFICATIONS-pdf.jpg-1-1.png') }}" alt="flato pdf" class="img-fluid mb-3">
           <div>
         <?php  }  ?>
+        <div class="row d-flex justify-content-center">
+            @if(!empty($blogdetail->cta_image))
+            <div class="col-md-12">
+                <div class="flato-img mt-4">
+                 <a href="{{ url('contact') }}" target="_blank">   <img src="{{ asset('public/blog_cta_image/'. $blogdetail->cta_image) }}" alt="{{ $blogdetail->title }}" class="img-fluid mb-3"></a>
+                </div>
+            </div>
+            @endif
+            @if(!empty($blogdetail->conclusion)) 
+            <div class="col-md-12">
+                <div>
+                    <p>{!! $blogdetail->conclusion !!}</p>
+                </div>
+            </div>
+            @endif
+        </div>
+    
     </div>
 </section>
+
 <div class="container">
     @if($blogdetail->title_desc)
     <div class="FAQ_productList mb-5">
