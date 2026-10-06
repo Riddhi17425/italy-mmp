@@ -56,7 +56,7 @@
           </div>
           <div class="col-xl-2 col-lg-2 col-md-6">
             <div>
-              <h4>Links</h4>
+              <h4>Collegamento</h4>
               <ul>
                 <li><a href="{{ url('/')}}">Home</a></li>
                 <li><a href="{{ route('about') }}">Chi Siamo</a></li>
@@ -71,7 +71,7 @@
           </div>
           <div class="col-xl-2 col-lg-2 col-md-6">
             <div>
-              <h4>Products</h4>
+              <h4>Prodotto</h4>
               <ul>
               @foreach($categories as $category_id => $categoryGroup)
               @php
@@ -91,7 +91,7 @@
           </div>
           <div class="col-xl-4 col-lg-4 col-md-6">
             <div>
-              <h4>Get in Touch</h4>
+              <h4>Contattaci</h4>
              <img src="{{ asset('public/front/images/italy_flag.png') }}" alt="italy_flag" class="me-3 mt-2 flag_img">
               
               <p class="mb-3 d-flex align-items-start mt-3"><img src="{{ asset('public/front/images/address.png') }}" alt="indirizzo" class="me-3 mt-2">
