@@ -29,9 +29,10 @@
     </video>
     <!--<div class="col-lg-6">-->
       <div class="col-lg-6 col-md-6 contact-head product-contact-head">
-        <h1 class="mb-3 mb-xl-4">Cartucce filtranti soffiate a fusione</h1>
+        <h1 class="mb-3 mb-xl-4">Cartucce Filtranti Melt Blown</h1>
         <div class="set-content">
-          <p>Filtri PP soffiati certificati NSF per un’elevata efficienza, adattamento personalizzato e una filtrazione affidabile.</p>
+          <p>Cartucce filtranti Melt Blown certificate NSF in polipropilene 100% vergine, con filtrazione in profondità a gradiente su tre strati, per trattamento acqua, settore farmaceutico, lavorazione alimentare e filtrazione di liquidi industriali. 
+</p>
         </div>
         <div class="theme-btn justify-content-start ">
           <button type="button" class="btn-add" data-bs-toggle="modal" data-bs-target="#inquiryModal">
