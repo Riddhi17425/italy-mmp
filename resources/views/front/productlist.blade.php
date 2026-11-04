@@ -31,7 +31,7 @@
             @elseif($category->category_name == 'Filtro Acqua')
                <P><strong>mmp</strong> è un produttore e fornitore affidabile di cartucce filtro acqua per tutti i sistemi standard. Dai filtri melt blown ai filtri avvolti, offriamo soluzioni efficaci per rimuovere contaminanti e particelle dall’acqua.</P>
             @elseif($category->category_name == 'Filato Filtrante')
-               <P>Produttore di Filato Filtrante ad Alte Prestazioni specializzato in filati di polipropilene (Filato PP), filati anti-schiuma zero e filati di cotone per la filtrazione industriale e medicale.</P>
+               <P>Filato filtrante ingegnerizzato per la produzione di cartucce filtranti a filo avvolto, disponibile in polipropilene, PP antimicrobico, PP zero-foaming e cotone candeggiato, per esigenze di filtrazione industriali e commerciali.</P>
             @endif
         </div>
         <div class="theme-btn justify-content-start ">
@@ -135,9 +135,8 @@
            <p class="category-content m-add"><b>mmp</b> produce una gamma completa di cartucce filtro acqua per diversi sistemi di filtrazione. Offriamo un’ampia scelta di cartucce filtranti acqua che possono essere utilizzate sia in sistemi di filtrazione domestici che industriali per migliorare la qualità dell’acqua. Le nostre cartucce filtranti sono realizzate in polipropilene di alta qualità, garantendo resistenza e adattabilità in molteplici applicazioni.Inoltre, forniamo cartucce per filtri acqua personalizzate in base alle esigenze dei clienti per i mercati internazionali, inclusi USA, Regno Unito, Emirati Arabi Uniti, Australia e altri paesi.Nella sezione seguente presenteremo le nostre diverse soluzioni di filtrazione dell’acqua.</p>
             @elseif($category->category_name == 'Filato Filtrante')
                 <!--<P class="category-content m-add">mmp delivers a range of expert-approved, industry-leading water filter cartridges, designed to enable you with superior water clarity, taste, and protection.</P>-->
-                <h2 class="inner-head"> Produttore di filati di filtrazione</h2>
-           <p class="category-content">Da <b>mmp</b> Filtration portiamo innovazione ed eccellenza in primo piano nella tecnologia di filtrazione grazie ai nostri avanzati filati filtranti. Progettati appositamente per sistemi di filtrazione ad alte prestazioni, i nostri filati sono realizzati per garantire efficienza superiore, durata e affidabilità in un’ampia gamma di applicazioni industriali e commerciali..</p>
-           <p class="category-content">In qualità di produttore e fornitore affidabile di <b>filato PP,</b> offriamo soluzioni personalizzate su misura per le tue esigenze, combinando materiali all’avanguardia con pratiche di produzione di livello industriale.</p>
+                <h2 class="inner-head"> Produttore e Fornitore di Filato in Polipropilene</h2>
+           <p class="category-content"><b>mmp</b> è un produttore specializzato di filato filtrante e fornitore di filato in PP. Produce filato di grado filtrante direttamente nel proprio stabilimento di Ahmedabad con la tecnologia di filatura DREF. Ogni variante della gamma <b>mmp</b> è realizzata internamente con materie prime 100% vergini e fornita a produttori di cartucce filtranti e acquirenti industriali in Italia e nel mondo. Sono disponibili sia specifiche standard sia configurazioni personalizzate.</p>
            <!--<div class="theme-btn justify-content-start m-add">-->
            <!--           <a href="https://mmpfilter.com/water-filtration-product-brochure.pdf" target="_blank" class="btn-add"><span><i class="fa-solid fa-arrow-down"></i></span>-->
            <!--             <p>Download Brochure</p>-->
@@ -546,98 +545,107 @@
                     </ul>
                     <div class="tab-content details-tabs-content" id="myTabContent">
                         <div class="tab-pane details-content-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                            <p>Il nostro portafoglio di filati filtranti include filati in <b>Polipropilene ad Alte Prestazioni (Filato PP)</b> e lo specializzato <b>Filato PP Zero Schiuma</b>, ciascuno progettato per soddisfare le rigorose esigenze dei moderni sistemi di filtrazione. Realizzati con tecnologia avanzata di <b>Filatura Dref</b>, i nostri <b>filati in polipropilene</b> offrono elevata resistenza alla trazione, resistenza chimica e stabilità dimensionale, rendendoli ideali per la produzione di cartucce filtranti avvolte, elementi pieghettati e altri media filtranti. Varianti come il <b>Filato PP per Filtrazione, Filato Core Spun</b> sono ampiamente utilizzate in vari settori per la loro affidabilità ed efficienza. Inoltre, il nostro premium <b>Filantro Zero Schiuma</b> è progettato per eliminare la formazione di bolle nei processi di filtrazione dei liquidi, garantendo chiarezza ottimale e prestazioni elevate. Grazie alle sue proprietà antistatiche e idrofobiche, è la scelta ideale per applicazioni ad alta precisione dove è essenziale una filtrazione costante e senza schiuma. In qualità di affidabile <b>Produttore e Fornitore di Filato PP</b>, offriamo soluzioni tessili progettate per garantire durata, purezza ed eccezionali prestazioni di filtrazione.</p>
+                            <p>La gamma di filati filtranti <b>mmp</b> è prodotta con la filatura DREF, un processo che garantisce l’uniformità delle fibre, il basso ritiro e il volume elevato richiesti dalla produzione di cartucce filtranti. A differenza dei filati a filatura ad anello, il filato DREF ha una struttura fibrosa più aperta e regolare, che si avvolge in modo uniforme sull’anima della cartuccia. Si ottengono così una densità degli strati prevedibile e prestazioni di filtrazione ripetibili nell’elemento filtrante finito.</p>
+                            <p>La gamma comprende quattro tipi di filato, ciascuno sviluppato per una specifica esigenza di filtrazione. Il filato in polipropilene standard copre la maggior parte delle applicazioni industriali di filtrazione di acqua e prodotti chimici. Il filato in PP antimicrobico integra additivi approvati FDA a livello della fibra, per le applicazioni in cui è richiesto il controllo batterico all’interno del media filtrante. Il filato in PP Zero Foaming elimina l’aria intrappolata e la formazione di schiuma durante la lavorazione dei liquidi. Il filato in cotone candeggiato assorbente è impiegato nelle applicazioni alimentari e in quelle a fibra naturale, dove non sono previsti materiali sintetici.</p>
+                            <p>Tutte le varianti sono prodotte senza leganti, adesivi o prodotti chimici di processo. Il filato finito è chimicamente inerte fin dalla produzione e non richiede alcun pretrattamento prima dell’uso nell’avvolgimento delle cartucce.</p>
 
                         </div>
                         <div class="tab-pane details-content-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                            <ul style="list-style: disc; padding-left:23px">
-                                <li>Realizzato in 100% polipropilene vergine.</li>
-                                <li>Prodotto con tecnologia di filatura <b>Dref per garantire</b> uniformità e basso ritiro.</li>
-                                <li>Elevata resistenza alla trazione ed eccellenti caratteristiche di allungamento.</li>
-                                <li>Chimicamente inerte, resistente ad acidi, alcali e solventi organici.</li>
-                                <li>Disponibili varianti antimicrobiche e idonee al contatto alimentare.</li>
-                                <li>Il filato <b>Zero Schiuma</b> riduce al minimo l'intrappolamento d'aria nei liquidi.</li>
-                                <li>Ecologico e riciclabile.</li>
-                            </ul>
+                            <p><b>Tecnologia di filatura DREF: </b>ogni filato filtrante prodotto da <b>mmp</b> è filato con il processo DREF, che garantisce una distribuzione uniforme delle fibre, bassa lanugine e proprietà di resistenza a trazione costanti in ogni lotto di produzione.</p>
+                            
+                            <p><b>Materie prime 100% vergini:</b> nessun polipropilene riciclato né cariche. Il filato in polipropilene <b>mmp</b> è prodotto interamente con PP vergine, per garantire purezza chimica e prestazioni prevedibili nelle applicazioni di filtrazione più sensibili.</p>
+                            
+                            <p><b>Quattro varianti per esigenze diverse:</b> PP standard, PP antimicrobico, PP zero foaming e filato di cotone candeggiato per cartucce bobinate coprono l’intera gamma di esigenze di filtrazione industriali, alimentari, farmaceutiche e speciali, da un unico fornitore.</p>
+                            
+                            <p><b>Inerzia chimica:</b> il polipropilene resiste alla maggior parte di acidi, alcali e solventi industriali comuni. Il filato <b>mmp</b> mantiene le proprie proprietà strutturali e chimiche nelle condizioni operative tipiche delle cartucce a filo avvolto standard.</p>
+                            
+                            <p><b>Specifiche personalizzabili:</b> denier, torsione, titolo del filato e formato di confezionamento possono essere adattati alle specifiche esigenze di avvolgimento della cartuccia. <b>mmp</b> collabora direttamente con i produttori di cartucce per allineare le specifiche del filato ai loro parametri di produzione.</p>
+                            
+                            <p><b>Costanza da lotto a lotto:</b> nei rapporti con un fornitore di filato filtrante che sostengono una produzione continua, la costanza tra un ordine e l’altro conta quanto la qualità iniziale. Il processo DREF controllato e l’approvvigionamento di materie prime vergini di <b>mmp</b> garantiscono la stessa specifica del filato in ogni lotto.</p>
                         </div>
                         <div class="tab-pane details-content-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                            <p>Il nostro <strong>filato filtrante in PP</strong> è ideale per:</p>
+                            <p>Il filato filtrante <b>mmp</b> è utilizzato ovunque si producano o si impieghino cartucce a filo avvolto:</p>
                             <ul style="list-style: disc; padding-left:23px">
-                                <li>Produzione di <strong>cartucce filtranti avvolte.</strong></li>
-                                <li>Sistemi di purificazione dell'acqua.</li>
-                                <li>Filtri farmaceutici e di grado da laboratorio.</li>
-                                <li>Filtrazione per la lavorazione di bevande e alimenti.</li>
-                                <li>Filtri sterili di grado medicale.</li>
-                                <li>Filtrazione di vernici, resine e prodotti chimici.</li>
-                                <li>Supporti filtranti per il settore oil & gas.</li>
-                                <li>Soluzioni di trattamento delle acque domestiche e industriali.</li>
+                                <li><b>Produzione di cartucce filtranti a filo avvolto:</b> l’applicazione principale. Il filato <b>mmp</b> è usato dai produttori di cartucce per avvolgere cartucce standard e speciali con gradi di filtrazione da 0,5 a 100 µm.</li>
+                                <li><b>Trattamento delle acque:</b> le cartucce avvolte con filato <b>mmp</b> sono impiegate nella prefiltrazione a monte di membrane RO, sistemi UF e unità a scambio ionico negli impianti idrici municipali e industriali.</li>
+                                <li><b>Produzione farmaceutica:</b> sistemi di acqua purificata, pretrattamento WFI (acqua per preparazioni iniettabili) e filtrazione di liquidi di processo con filato privo di additivi e completamente documentato.</li>
+                                <li><b>Alimentare e bevande:</b> filtrazione di acqua per ingredienti e di liquidi di processo con varianti di filato in PP o cotone idonee al contatto alimentare, conformi ai requisiti di igiene e purezza.</li>
+                                <li><b>Industria chimica:</b> filtrazione di fluidi di processo con filato in polipropilene resistente agli agenti chimici, in ambienti con acidi diluiti, alcali e solventi.</li>
+                                <li><b>Petrolio e gas:</b> prefiltrazione di acqua di processo e di servizio negli impianti upstream e downstream.</li>
+                                <li><b>Tessile e tintoria:</b> filtrazione dell’acqua di processo negli ambienti produttivi in cui la qualità dell’acqua incide direttamente su quella del prodotto.</li>
+                                <li><b>Industria lattiero-casearia:</b> filtrazione di liquidi in ambienti produttivi igienici, con varianti di filato compatibili NSF.</li>
+                                
                             </ul>
-                            <p>Che tu stia cercando <strong>filato di riempimento in PP</strong> o <strong>core spun yarn</strong> per filtri speciali, le nostre soluzioni garantiscono prestazioni costantemente elevate.</p>
                         </div>
                     </div>
                 </div>
             </div>
+            
+            <h2 class="inner-head"> Perché Scegliere mmp Filtration per il Filato Filtrante in Italia?</h2>
+           <p>I produttori italiani di cartucce filtranti e gli acquirenti industriali che lavorano con <b>mmp</b> si riforniscono direttamente dal produttore, senza passare da un distributore o da fornitori di filato in PP che non sono in grado di fornire documentazione di produzione. Ogni bobina di filato in PP che esce dallo stabilimento <b>mmp</b> è riconducibile al proprio lotto di produzione, con certificazioni dei materiali e dati di prova disponibili su richiesta.</p>
+           <p>In quanto produttore di filato in polipropilene con capacità interna dedicata di filatura DREF, <b>mmp</b> controlla l’intero processo produttivo, dalla materia prima al filato finito. Ciò significa che le specifiche personalizzate sono realmente realizzabili, non semplicemente elencate come opzione e poi affidate a terzi. Le modifiche al denier, i livelli di additivo antimicrobico e la formulazione zero foaming sono tutti gestiti all’interno dei propri parametri produttivi.</p>
+           <p class="mb-5"><b>mmp</b> fornisce filato filtrante in Italia, Stati Uniti, Regno Unito, Emirati Arabi Uniti, Australia e in altri mercati nel mondo. Gli ordini in grandi quantità sono evasi dalla capacità produttiva, con tempi di consegna confermati al momento dell’ordine. Sono disponibili campioni prima dell’impegno su grandi quantità.</p>
             <div class="col-xl-12">
                 <div class="Product-detail-faq">
-                    <h4 class="inner-head">Domande frequenti sui filati PP</h4>
+                    <h2 class="inner-head">Domande frequenti Filato Filtrante</h2>
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <p class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    A cosa serve il filato in polipropilene?
+                                    AA cosa serve il filato filtrante?
                                 </button>
                             </p>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p><b> Il filato in polipropilene (filato PP)</b> viene comunemente utilizzato nella produzione di mezzi filtranti, in particolare cartucce filtranti avvolte, grazie alla sua resistenza chimica, resistenza alla trazione ed efficienza in termini di costi.</p>
+                                    <p>Il filato filtrante è la materia prima utilizzata per produrre le cartucce a filo avvolto. Viene avvolto attorno a un’anima centrale secondo un disegno controllato, per creare una struttura di filtrazione in profondità che trattiene le particelle dei liquidi in un determinato intervallo di grado di filtrazione. È impiegato nel trattamento acque e nelle applicazioni di filtrazione farmaceutiche, alimentari, chimiche e industriali.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <p class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Cos'è il filato Zero Foaming?
+                                    Il filato in PP può essere personalizzato in base alle esigenze di filtrazione?
                                 </button>
                             </p>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p><b>Il filato PP Zero Foaming </b> è progettato appositamente per ridurre l'intrappolamento d'aria e la formazione di bolle nei filtri, rendendolo ideale per la filtrazione di liquidi ad alta chiarezza.</p>
+                                    <p> Sì. <b>mmp</b> adatta denier, torsione, titolo e composizione delle fibre alle specifiche esigenze di avvolgimento della cartuccia. Sono disponibili anche livelli personalizzati di additivo antimicrobico, formulazioni zero foaming e formati di confezionamento. Invia le specifiche della tua cartuccia e il team <b>mmp</b> confermerà che cosa è realizzabile.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <p class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    La filatura Dref è migliore per il filato filtrante?
+                                    Il filato in polipropilene è sicuro per la filtrazione dell’acqua e per le applicazioni alimentari?
                                 </button>
                             </p>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>Sì. <b>Il filato Dref</b> Spinning garantisce basso rilascio di fibre, alta voluminosità e densità uniforme, caratteristiche che lo rendono superiore per la produzione di cartucce filtranti.</p>
+                                    <p> Sì. Il filato in polipropilene <b>mmp</b> è prodotto con PP 100% vergine, senza leganti, adesivi né prodotti chimici di processo. Per le applicazioni regolamentate sono disponibili varianti idonee al contatto alimentare e antimicrobiche. Per la filtrazione di acqua potabile e il contatto con alimenti sono disponibili opzioni di filato compatibili NSF.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <p class="accordion-header" id="headingFour">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    Fornite in grandi quantità ai produttori?
+                                    Qual è il tempo di consegna tipico per un ordine di filato filtrante in grandi quantità?
                                 </button>
                             </p>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>Assolutamente. Come <b>produttore e fornitore leader di filato PP</b>, soddisfiamo ordini all'ingrosso a livello globale con una fornitura costante e specifiche personalizzabili.</p>
+                                    <p> Il tempo di consegna dipende dalla variante del filato e dal volume dell’ordine. Le configurazioni standard di filato PP sono in genere disponibili entro 2-4 settimane. Le specifiche personalizzate possono richiedere tempi di produzione aggiuntivi. Contatta <b>mmp</b> indicando i dettagli dell’ordine per ricevere un tempo di consegna confermato.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <p class="accordion-header" id="headingFive">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    I vostri filati sono idonei al contatto alimentare?
+                                    Offrite campioni prima di un ordine in grandi quantità di filato PP o filato filtrante?
                                 </button>
                             </p>
                             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>Sì. Offriamo <b>filati in polipropilene food-grade e antimicrobici</b>, adatti ad applicazioni sensibili come alimentare, bevande e farmaceutico.</p>
+                                    <p>Sì. <b>mmp</b> fornisce campioni di filato filtrante per la valutazione prima dell’impegno su un ordine in grandi quantità. Questo permette ad acquirenti e produttori di cartucce di verificare le prestazioni del filato nel proprio processo di avvolgimento prima di effettuare un ordine di produzione.</p>
                                 </div>
                             </div>
                         </div>
