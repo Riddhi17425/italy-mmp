@@ -275,6 +275,7 @@ class dashboardController extends Controller
         $data = DB::table('blog')
         ->leftjoin('faq', 'faq.blog_id', '=', 'blog.id')
         ->where('blog.url', $url)
+         ->select('blog.*', 'faq.title_desc')
         ->get();
        
         $blogdetail = $data[0];

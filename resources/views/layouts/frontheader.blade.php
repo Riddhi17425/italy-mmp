@@ -335,7 +335,6 @@
       } 
     </script>
 
-
 </head>
 
 <body>
@@ -415,7 +414,7 @@
                                             href="{{ route('woundfiltercartridgemachine') }}">Macchina per Cartucce
                                             Filtranti per ferite</a></li>
                                      <li><a class="dropdown-item"
-                                            href="{{ route('macchinePerCartucceFiltrantiBobinate') }}">Macchine per Cartucce Filtranti Bobinate</a></li>
+                                            href="{{ route('woundfiltercartridgemachine') }}">Macchine per Cartucce Filtranti Bobinate</a></li>
                                 </ul>
                             </div>
                         </li>

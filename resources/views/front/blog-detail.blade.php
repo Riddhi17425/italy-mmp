@@ -1,4 +1,85 @@
+
 @include('layouts.frontheader')
+
+@php
+    $createdAt = !empty($blogdetail->created_at) ? \Carbon\Carbon::parse($blogdetail->created_at) : null;
+
+    if (!empty($blogdetail->publish_date)) {
+        $publishedCarbon = \Carbon\Carbon::parse($blogdetail->publish_date);
+        if ($createdAt) {
+            $publishedCarbon->setTimeFrom($createdAt);
+        }
+    } else {
+        $publishedCarbon = $createdAt;
+    }
+
+    $modifiedCarbon = !empty($blogdetail->updated_at)
+        ? \Carbon\Carbon::parse($blogdetail->updated_at)
+        : $publishedCarbon;
+
+    $datePublished = $publishedCarbon ? $publishedCarbon->format('Y-m-d\TH:i:sP') : null;
+    $dateModified  = $modifiedCarbon ? $modifiedCarbon->format('Y-m-d\TH:i:sP') : $datePublished;
+
+    $blogSchema = [
+        '@context' => 'https://schema.org',
+        '@type' => 'BlogPosting',
+        'mainEntityOfPage' => [
+            '@type' => 'WebPage',
+            '@id' => url('/dettaglio-blog/' . $blogdetail->url),
+        ],
+        'headline' => $blogdetail->title,
+        'description' => !empty($blogdetail->meta_description) ? $blogdetail->meta_description : $blogdetail->title,
+        'image' => asset('public/blog/' . $blogdetail->image),
+        'author' => [
+            '@type' => 'Organization',
+            'name' => 'mmp Filter',
+        ],
+        'publisher' => [
+            '@type' => 'Organization',
+            'name' => 'mmp Filter',
+            'logo' => [
+                '@type' => 'ImageObject',
+                'url' => 'https://italy.mmpfilter.com/public/front/images/logo.png',
+            ],
+        ],
+        'datePublished' => $datePublished,
+        'dateModified' => $dateModified,
+    ];
+
+    $faqItems = [];
+    if (!empty($blogdetail->title_desc)) {
+        $decodedFaq = json_decode($blogdetail->title_desc, true);
+        if (is_array($decodedFaq)) {
+            foreach ($decodedFaq as $faqRow) {
+                if (!empty($faqRow['question']) && !empty($faqRow['answer'])) {
+                    $faqItems[] = [
+                        '@type' => 'Question',
+                        'name' => trim(strip_tags($faqRow['question'])),
+                        'acceptedAnswer' => [
+                            '@type' => 'Answer',
+                            'text' => trim(strip_tags($faqRow['answer'])),
+                        ],
+                    ];
+                }
+            }
+        }
+    }
+
+    $faqSchema = !empty($faqItems) ? [
+        '@context' => 'https://schema.org',
+        '@type' => 'FAQPage',
+        'mainEntity' => $faqItems,
+    ] : null;
+@endphp
+
+<script type="application/ld+json">
+{!! json_encode($blogSchema, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT) !!}
+</script>
+@if($faqSchema)
+<script type="application/ld+json">
+{!! json_encode($faqSchema, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT) !!}
+</script>
+@endif
 
 <!-- about-banner -->
 <section class="contact-banner position-relative">
